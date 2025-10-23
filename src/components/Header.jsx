@@ -10,7 +10,7 @@ function Header({pageTitle}) {
 
   const handleSignOut = () => {
 
-    if(confirm('Are you sure you want to logout ?')) {
+    if(confirm('Are you sure you want to logout from here ?')) {
       signOut(auth).then(() => {
         dispatch(setUser(null));
       }).catch((error) => {
