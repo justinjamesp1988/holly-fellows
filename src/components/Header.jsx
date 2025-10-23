@@ -21,7 +21,7 @@ function Header({pageTitle}) {
 
     return (
       <div className="header-width">
-        <img src={'/Header/header.jpg'} />
+        {/* <img src={'/Header/header.jpg'} /> */}
       </div>
     )
   }
